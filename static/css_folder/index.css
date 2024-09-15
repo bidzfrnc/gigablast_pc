@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,600&family=Roboto+Condensed&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    
+}
+
+header{
+    width: 100%;
+    background-color: #5C5470;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    margin: 1.8rem 1.25rem;
+    transition: .2s ease-in-out;
+    background-image: linear-gradient( #FAF0E6 0 0);
+    background-position: 50% 100%;
+    background-size: 0% 0.25rem;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s, background-position 0s 0.2s;
+}
+a:hover, .active{
+    color:#FAF0E6;
+    background-position: 50% 100%;
+    background-size: 100% 0.20rem;
+}
+
+
+.sect1 {
+    height: 90vh;
+    background-color: #B9B4C7;
+    background-image: url();
+    background-repeat: no-repeat;
+    position: relative; 
+    
+}
+
+.welcome{
+    padding-top: 9.5rem;
+}
+
+.greet, .shop-name, .qoutes{
+    text-align: center;
+}
+
+.greet{
+    font-size: 4.5rem;
+}
+
+.to{
+    font-size: 2.5rem;
+}
+
+.shop-name {
+    line-height: 6.25rem;
+    font-size: 6.25rem;
+    border-bottom: 0.125rem solid #FAF0E6;
+    width: 40%; 
+    margin: 0 auto; 
+}
+
+.qoutes{
+    font-size: 2rem;
+    line-height: 9.5rem;
+}
